@@ -1,0 +1,199 @@
+,name,meaning,MID1_name
+0,M2ID,unique 5-digit person ID,M2ID
+1,M2FAMNUM,unique 6-digit family ID,M2FAMNUM
+2,SAMPLMAJ,which study this person is from,SAMPLMAJ
+3,B1PAGE_M2,age at time of phone interview,A1PAGE_M2
+4,B1PRSEX,gender,A1PRSEX
+5,B1PA1,self-evaluate physical health,A1PA4
+6,B1PA2,self-evaluate mental/emotional health,A1PA5
+7,B1PA3,self-evaluate own health vs. others of same age and gender,A1PA6
+8,B1PA9,how is your risk of heart attack vs same age and gender,A1PA13
+9,B1PA11,how much do you worry about your heart,A1PA15
+10,B1PA24C,taking prescription meds for high b.p.,A1PA33
+11,B1PA24D,doing anything other than rx meds for high b.p.,A1PA34
+12,B1PA25A,last b.p. reading,A1PA31
+13,B1PA27,how does your cancer risk compare to others of your age and gender,A1PA37
+14,B1PA37,age first cigarette,A1PA41
+15,B1PA38A,ever smoked regularly,A1PA40
+16,B1PA38B,age first smoked regularly,A1PA42
+17,B1PA39,now smoking regularly,A1PA43
+18,B1PA40,"cigs/day during heaviest year of smoking, if currently smoking",A1PA44
+19,B1PA41,ever tried to quit smoking,A1PA45
+20,B1PA42,age last smoked regularly,A1PA46
+21,B1PA49,age first drink alcohol,A1PA52
+22,B1PA54,"during heaviest drinking year, how frequently had 1+ drink",A1PA54
+23,B1PA55,"when you drank most, how many did you drink",A1PA55
+24,B1PA60,felt sad/depressed for 2+ wks/yr,A1PA57
+25,B1PA61,how much of the day did the sadness last,A1PA58
+26,B1PA83,how much you worry compared to others like you,A1PA80
+27,B1PA84,frequency of worrying,A1PA81
+28,B1PA88A,how often restless from worries,A1PA85A
+29,B1PA88D,how often can't sleep from worries,A1PA85D
+30,B1PB1,highest level of education completed,A1PB1
+31,B1PB3A,currently working,A1PB3A
+32,B1PB3B,self-employed,A1PB3B
+33,B1POCC,occupation category,A1POCC
+34,B1PIND,industry of your occupation,A1PIND
+35,B1POCMAJ,major category of your occupation,A1POCMJ
+36,B1PINDMJ,major category of your industry,A1PINMJ
+37,B1PTSEI,socio-economic index,A1PTSEI
+38,B1PTEARN,logit all earn >= 14.30,A1PTEARN
+39,B1PTEDU,logit all education some college,A1PTEDU
+40,B1PB12,hours/week for pay at main job,A1PB11
+41,B1PB12A,hours/week for pay at second job,A1PB11A
+42,B1PB19,marital status,A1PB17
+43,B1PB20,number of marriages,A1PB19
+44,B1PB33,highest education for spouse/partner,A1PB27
+45,B1PB34A,spouse/partner currently working,A1PB28A
+46,B1POCCS,spouse/partner occupation,A1POCCS
+47,B1PINDS,spouse/partner industry,A1PINDS
+48,B1PSOCMJ,spouse/partner major grouping of occupation,A1POCSMJ
+49,B1PSINMJ,spouse/partner major grouping of industry,A1PINSMJ
+50,B1PTSEIS,spouse socio-economic index,A1PTSEIS
+51,B1PG1,satisfaction with life now,A1PD1
+52,B1PG2,control over life,A1PD2
+53,B1PG3,satisfaction with self,A1PD3
+54,B1PG4,rate your contribution to the welfare and well-being of others,A1PD8
+55,B1PG5,disappointed with life achievements so far,A1PD9
+56,B1PG5A,how strong is assessment of life disappointment,A1PD9A
+57,B1PG6,how outgoing/sociable/interested in others are you,A1PD4
+58,B1PG7,are you a worrier,A1PD5
+59,B1PG8,are you a curious person,A1PD6
+60,B1PG9,are you optimistic,A1PD7
+61,B1SA1,rate your current health,A1SA1
+62,B1SA2,rate health 10 years ago,A1SA2
+63,B1SA3,estimate health 10 years from now,A1SA3
+64,B1SA4,rate your control over your health,A1SA4
+65,B1SA5,how much thought/effort do you put into your health,A1SA5
+66,B1SA6A,your energy now vs. 5 years ago,A1SA6A
+67,B1SA6B,your fitness now vs. 5 yrs ago,A1SA6B
+68,B1SA6C,your physique now vs. 5 yrs ago,A1SA6C
+69,B1SA6D,your weight now vs. 5 yrs ago,A1SA6D
+70,B1SA8A,keeping healthy depends on what you do,A1SA7A
+71,B1SA9E,you have low pain tolerance,A1SA8E
+72,B1SA11S,high b.p. or hypertension in last year,A1SA9S
+73,B1SA11T,anxiety/depresion in last year,A1SA9T
+74,B1SA11U,alcohol/drug problem in last year,A1SA9U
+75,B1SA11V,migraines in last year,A1SA9V
+76,B1SA11W,chronic sleep problems in last year,A1SA9W
+77,B1SA11X,diabetes/high blood sugar in last year,A1SA9X
+78,B1SA11Y,neurological disorder in last year,A1SA9Y
+79,B1SA11Z,stroke in last year,A1SA9Z
+80,B1SA11AA,ulcer in last year,A1SA9AA
+81,B1SA11BB,hernia in last year,A1SA9BB
+82,B1SA11CC,piles/hemarrhoids in last year,A1SA9CC
+83,B1SCHRON,number of chronic conditions in past year,A1SCHRON
+84,B1SRXMED,number of prescription meds in last year,A1SRXMED
+85,B1SSPLMN,taking vitamins/supplements regularly,A1SVITAM
+86,B1SPOSAF,summary of how cheerful you've been recently,A1SPOSAF
+87,B1SNEGAF,summary of how horrible you've felt recently,A1SNEGAF
+88,B1SA30E,"summer vigorous activity, how often you run or lift weights long enough to sweat",A1SA18
+89,B1SA30F,"winter vigorous activity, how often you run or lift weights long enough to sweat",A1SA19
+90,B1SA31E,summer moderate activity,A1SA20
+91,B1SA31F,winter moderate activity,A1SA21
+92,B1SA38,perception of own weight,A1SA26
+93,B1SA39,weight in pounds,A1SA27
+94,B1SA40,weight a year ago,A1SA28
+95,B1SE1X,I like most aspects of my personality,A1SF1A
+96,B1SE1F,I am pleased with how life has turned out,A1SF1B
+97,B1SE1OO,"some people wander aimlessly, but not I",A1SF1C
+98,B1SE1H,everyday demands often get me down,A1SF1D
+99,B1SE1DD,disappointed with achievements in life,A1SF1E
+100,B1SE1J,difficult to maintain close relationships,A1SF1F
+101,B1SE1E,I live life one day at a time and don't really worry about the future,A1SF1G
+102,B1SE1B,I'm in charge of my life situation,A1SF1H
+103,B1SE1T,I'm good at managing daily responsibilities orf life,A1SF1I
+104,B1SE1QQ,I've done all there is to do in life,A1SF1J
+105,B1SE1AA,life has been a continuous process of learning/changing/growing,A1SF1K
+106,B1SE1I,important to have new experiences that challenge how I see myself and the world,A1SF1L
+107,B1SE1BB,others describe me as giving/willing to share my time,A1SF1M
+108,B1SE1GG,gave up trying to improve long ago,A1SF1N
+109,B1SE1M,I tend to be influenced by others with strong opinions,A1SF1O
+110,B1SE1S,I trust my own opinions even if they're different,A1SF1Q
+111,B1SE1KK,I judge myself by my own values of what is important,A1SF1R
+112,B1SE4A,Not much can I do to change the important things in life,A1SF1S
+113,B1SE4B,I often feel helpless dealing with life problems,A1SF1T
+114,B1SE4C,I can do most anything I set my mind to,A1SF1U
+115,B1SE4D,Mostly what I can do is determined by others,A1SF1V
+116,B1SE4E,What happens in life is beyond my control,A1SF1W
+117,B1SE4F,When I really want something I find a way to get/do it,A1SF1X
+118,B1SE4G,Many things interfere with what I want to do,A1SF1Y
+119,B1SE1CC,I like to plan for the future,A1SF3O
+120,B1SPERSI,persistent in goal striving,A1SPERSI
+121,B1SCHANG,lower aspirations,A1SCHANG
+122,B1SREAPP,positive reappraisal,A1SREAPP
+123,B1SDIREC,self-directedness and planning,A1SDIREC
+124,B1STODAY,live for today,A1STODAY
+125,B1SFORSG,foresight and anticipation,A1SFORSG
+126,B1SINSGH,insight into past,A1SINSGH
+127,B1SSUFFI,self-sufficiency,A1SSUFFI
+128,B1SF21,job effect on physical health,A1SI22
+129,B1SF22,job effect on mental/emotional health,A1SI23
+130,B1SF24,accident/injury risk at work,A1SI24
+131,B1SGENER,summary of your home/work interaction stress,A1SGENER
+132,B1SSWBSC,summary of your social contribution/well-being,A1SSWBSC
+133,B1SHOMET,summary of your perceived quality of my neighborhood,A1SHOMET
+134,B1SFAMSO,summary of your family affectual solidarity,A1SFAMSO
+135,B1SKINPO,summary of the support you get from family,A1SKINPO
+136,B1SKINNE,summary of strain from family,A1SKINNE
+137,B1SFDSOL,summary of friends affectual solidarity,A1SFDSOL
+138,B1SFDSPO,summary of support from friends,A1SFDSPO
+139,B1SFDSNE,summary of strain from friends,A1SFDSNE
+140,B1SL1,rate current marriage/relationship,A1SP1
+141,B1SL2,rate marriage/relationship 10 yrs ago,A1SP2
+142,B1SL3,rate marriage/relationship 10 years from now,A1SP3
+143,B1SL4,control over marriage/relationship,A1SP4
+144,B1SL5,how much thought/effort you put into marriage/relationship these days,A1SP5
+145,B1SSPSOL,spouse/partner affectual solidarity,A1SSPSOL
+146,B1SSPEMP,support from spouse/partner,A1SSPEMP
+147,B1SSPCRI,strain from spouse/partner,A1SSPCRI
+148,B1SL18,describe current physical health of spouse/partner,A1SP29
+149,B1SL19,describe mental health of current spouse/partner,A1SP30
+150,B1SM1,rate sexual aspect of current life,A1SQ1
+151,B1SM2,rate sexual aspect of life 10 yrs ago,A1SQ2
+152,B1SM3,predict sexual aspect of life 10 years from now,A1SQ3
+153,B1SM4,control of sexual aspect of life,A1SQ4
+154,B1SM5,how much thought/effort you put into sexual aspect of life,A1SQ5
+155,B1SM7,number of sexual partners in last year,A1SQ6
+156,B1SM6,sexual preference,A1SQ7
+157,B1SM8,sexual frequency last 6 months,A1SQ8
+158,B1SN1A,religion,A1SR1
+159,B1SN2A,how religious are you,A1SR2A
+160,B1SN2B,how spiritual are you,A1SR2B
+161,B1PF7A,race,A1SS7R
+162,B1SN2H,how important is it to marry someone in your same race,A1SS10
+163,B1PA51,how often at least one drink in past month,
+164,B1PA52,number of drinks on days when drank,
+165,B1PDEPRE,depressed affect + anhedon (continuous),
+166,B1PC2,"Number of living children, biological or not",
+167,B1PF2A,"In addition to being american, what in your main ethnic background or origin",
+168,B1PF2B,"In addition to the first ethnic group or origin, what is a second",
+169,B1PF2C,"In addition to the second ethnic group or origin, what is a third",
+170,B1SA6E,Compare memory to 5 years ago,
+171,B1SA7A,Compare overall health to others your age,
+172,B1SA32E,summer light activity leisure,
+173,B1SA32F,winter light activity leisure,
+174,B1SA37A,Height in feet,
+175,B1SA37B,Height in inches,
+176,B1SA56N,relaxation/meditation in last yr,
+177,B1SA57A,Hours of sleep on workdays,
+178,B1SA57B,Minutes of sleep on workdays,
+179,B1SA58A,Hours of sleep on non-workdays,
+180,B1SA58B,Minutes of sleep on non-workdays,
+181,B1SPWBA1,Autonomy,
+182,B1SPWBE1,Environmental mastery,
+183,B1SPWBG1,Personal growth,
+184,B1SPWBR1,Positive relations with others,
+185,B1SPWBU1,Purpose in life,
+186,B1SPWBS1,Self-acceptance,
+187,B1SPWBA2,Autonomy-2,
+188,B1SPWBE2,Environmental mastery-2,
+189,B1SPWBG2,Personal growth-2,
+190,B1SPWBR2,Positive relations with others-2,
+191,B1SPWBU2,Purpose in life-2,
+192,B1SPWBS2,Self-acceptance-2,
+193,B1SMNDFU,Mindfulness,
+194,B1SH7A,Hours/month volunteer hospital/nursing home,
+195,B1SH7B,Hours/month volunteer school/youth org,
+196,B1SH7C,Hours/month volunteer political,
+197,B1SH7D,Hours/month volunteer other org/cause,
