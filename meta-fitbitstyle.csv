@@ -117,30 +117,17 @@
 115,B1SA61C,Wake up too early (frequency),Code,"1, NEVER | 2, RARELY | 3, SOMETIMES | 4, OFTEN | 5, ALMOST ALWAYS | 8, REFUSED | 9, INAPP | 97, DON'T KNOW | 7, DON'T KNOW | -1, RESPONDENT DOES NOT HAVE SAQ DATA"
 116,BACAS61C,Wake up too early frequency,Code,"1, NEVER (0 TIMES) | 2, RARELY (ONCE A MONTH OR LESS) | 3, SOMETIMES (2-4 TIMES/MONTH) | 4, OFTEN (2-3 TIMES/WEEK) | 5, ALMOST ALWAYS (4 OR MORE TIMES PER WEEK) | 7, DON'T KNOW | 8, REFUSED | 9, INAPP"
 117,B4S1,Usual bedtime (past month),Numeric,
-118,RA4S1,Usual bedtime (past month),Numeric,
-119,RA4S2,Minutes taken to fall asleep (past month),Numeric,
 120,B4S2,Minutes taken to fall asleep (past month),Numeric,
-121,RA4S3,Usual getting up time (past month),Numeric,
 122,B4S3,Usual getting up time (past month),Numeric,
 123,B4S4,Hours of actual sleep at night (past month),Numeric,
-124,RA4S4,Hours of actual sleep at night (past month),Numeric,
 125,B4S5,Rate sleep quality overall (past month),Code,"1, VERY GOOD | 2, FAIRLY GOOD | 3, FAIRLY BAD | 4, VERY BAD | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
-126,RA4S5,Rate sleep quality overall (past month),Code,"1, VERY GOOD | 2, FAIRLY GOOD | 3, FAIRLY BAD | 4, VERY BAD | 7, DON'T KNOW | 8, MISSING"
 127,B4S11A,Sleep trouble: Could not get to sleep within 30 minutes,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
-128,RA4S11A,Sleep trouble: Could not get to sleep within 30 minutes,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING"
-129,RA4S11B,Sleep trouble: Woke up in the middle of the night/early morning,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING"
 130,B4S11B,Sleep trouble: Woke up in the middle of the night/early morning,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
 131,B4SSQ_GS,SLEEP: Global Score,Numeric,
-132,RA4SSQ_GS,SLEEP: Global Score,Numeric,
 133,B4SSQ_S1,SLEEP Component 1 - Subjective Sleep Quality,Code,"0, VERY GOOD | 1, FAIRLY GOOD | 2, FAIRLY BAD | 3, VERY BAD | 8, NOT CALCULATED - Due to missing data"
-134,RA4SSQ_S1,SLEEP Component 1 - Subjective Sleep Quality,Code,"0, VERY GOOD | 1, FAIRLY GOOD | 2, FAIRLY BAD | 3, VERY BAD | 8, NOT CALCULATED - Due to missing data"
 135,B4SSQ_S2,SLEEP Component 2 - Sleep Latency,Code,"0, SUM OF SUBSCALES = 0 | 1, SUM OF SUBSCALES = 1-2 | 2, SUM OF SUBSCALES = 3-4 | 3, SUM OF SUBSCALES = 5-6 | 8, NOT CALCULATED - Due to missing data"
-136,RA4SSQ_S2,SLEEP Component 2 - Sleep Latency,Code,"0, SUM OF SUBSCALES = 0 | 1, SUM OF SUBSCALES = 1-2 | 2, SUM OF SUBSCALES = 3-4 | 3, SUM OF SUBSCALES = 5-6 | 8, NOT CALCULATED - Due to missing data"
 137,B4SSQ_S3,SLEEP Component 3 - Sleep Duration,Code,"0, > 7 HOURS | 1, 6-7 HOURS | 2, 5-6 HOURS | 3, < 5 HOURS | 8, NOT CALCULATED - Due to missing data"
-138,RA4SSQ_S3,SLEEP Component 3 - Sleep Duration,Code,"0, > 7 HOURS | 1, 6-7 HOURS | 2, 5-6 HOURS | 3, < 5 HOURS | 8, NOT CALCULATED - Due to missing data"
 139,B4SSQ_S4,SLEEP Component 4 - Habitual Sleep Efficiency,Code,"0, > 85% | 1, 75-84% | 2, 65-74% | 3, < 65% | 4, > 100% | 8, NOT CALCULATED - Due to missing data"
-140,RA4SSQ_S4,SLEEP Component 4 - Habitual Sleep Efficiency,Code,"0, > 85% | 1, 75-84% | 2, 65-74% | 3, < 65% | 4, > 100% | 8, NOT CALCULATED - Due to missing data"
-141,RA4SSQ_S5,SLEEP component 5 - Sleep Disturbances Range,Code,"0, 0 | 1, 1-9 | 2, 10-18 | 3, 19-27 | 8, NOT CALCULATED - Due to missing data"
 142,B4SSQ_S5,SLEEP Component 5 - Sleep Disturbances Range,Code,"0, 0 | 1, 1-9 | 2, 10-18 | 3, 19-27 | 8, NOT CALCULATED - Due to missing data"
 143,B4WMESOR,Mesor or mean activity level,Numeric,
 144,B4WAMP,Amplitude or height of rhythm,Numeric,
