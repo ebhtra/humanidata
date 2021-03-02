@@ -1,0 +1,148 @@
+,Name,Label,Type,Codes
+0,K2CMONTH,Clinic Visit Date: MONTH,Numeric,
+1,K2CYEAR,Clinic Visit Date: YEAR,Numeric,
+2,K2CAGE,Age at Clinic Visit,Numeric,
+3,K2QSAQ,Is SAQ data available?,Code,"1, YES | 2, NO"
+4,K2QSYMN2,Total # of Symptoms & Chronic Conditions (All MIDJA items),Code,"0, NONE | 99, NOT CALCULATED - Due to INAPP data"
+5,K2QSYMN,Total # of Symptoms & Chronic Conditions (MIDUS items only),Code,"0, NONE | 99, NOT CALCULATED - Due to INAPP data"
+6,K2QSYMX2,Any Symptoms & Chronic Conditions?--Yes/No (All MIDJA items),Code,"1, YES | 2, NO | 9, NOT CALCULATED - Due to INAPP data"
+7,K2QSYMX,Any Symptoms & Chronic Conditions?--Yes/No (MIDUS items only),Code,"1, YES | 2, NO | 9, NOT CALCULATED - Due to INAPP data"
+8,K2Q7AMPM,Usual bed time: am/pm,Code,"1, AM | 2, PM | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+9,K2Q7H,Usual bed time: hours,Numeric,
+10,K2Q7M,Usual bed time: minutes,Numeric,
+11,K2Q8,Minutes to fall asleep,Numeric,
+12,K2Q9AMPM,Usual getting up time: am/pm,Code,"1, AM | 2, PM | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+13,K2Q9H,Usual getting up time: hours,Numeric,
+14,K2Q9M,Usual getting up time: minutes,Numeric,
+15,K2Q10H,Hours of sleep a night: hours,Numeric,
+16,K2Q10M,Hours of sleep a night: minutes,Numeric,
+17,K2Q11A,Sleep trouble could not sleep,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+18,K2Q11B,Sleep trouble woke up,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+19,K2Q12,Sleep quality overall,Code,"1, VERY GOOD | 2, FAIRLY GOOD | 3, FAILY BAD | 4, VERY BAD | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+20,K2Q13,Keep up enough enthusiasm,Code,"1, NO PROBLEM AT ALL | 2, ONLY A VERY SLIGHT PROBLEM | 3, SOMEWHAT OF A PROBLEM | 4, A VERY BIG PROBLEM | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+21,K2Q14,Taken medicine to sleep,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+22,K2Q15,Trouble staying awake,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+23,K2Q16,Feeling sleepy daytime,Code,"1, NOT DURING THE PAST MONTH | 2, LESS THAN ONCE A WEEK | 3, ONCE OR TWICE A WEEK | 4, THREE OR MORE TIMES A WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+24,K2QSQ_S1,SLEEP Component 1 - Subjective Sleep Quality,Code,"0, VERY GOOD | 1, FAIRLY GOOD | 2, FAIRLY BAD | 3, VERY BAD | 8, NOT CALCULATED - Due to missing data | 9, NOT CALCULATED - Due to INAPP data"
+25,K2QSQ_S2,SLEEP Component 2 - Sleep Latency,Code,"0, SUM OF SUBSCALES = 0 | 1, SUM OF SUBSCALES = 1-2 | 2, SUM OF SUBSCALES = 3-4 | 3, SUM OF SUBSCALES = 5-6 | 8, NOT CALCULATED - Due to missing data | 9, NOT CALCULATED - Due to INAPP data"
+26,K2QSQ_S3,SLEEP Component 3 - Sleep Duration,Code,"0, > 7 HOURS | 1, 6-7 HOURS | 2, 5-6 HOURS | 3, < 5 HOURS | 8, NOT CALCULATED - Due to missing data | 9, NOT CALCULATED - Due to INAPP data"
+27,K2QSQ_S4,SLEEP Component 4 - Habitual Sleep Efficiency,Code,"0, > 85% | 1, 75-84% | 2, 65-74% | 3, < 65% | 4, > 100% | 8, NOT CALCULATED - Due to missing data | 9, NOT CALCULATED - Due to INAPP data"
+28,K2QSQ_S5,SLEEP Component 5 - Sleep Disturvances Range,Code,"0, 0 | 1, 1-9 | 2, 10-18 | 3, 19-27 | 8, NOT CALCULATED - Due to missing data | 9, NOT CALCULATED - Due to INAPP data"
+29,K2QSQ_S6,SLEEP Component 6 - Use of Sleeping Medication,Code,"0, NOT DURING THE PAST MONTH | 1, LESS THAN ONCE A WEEK | 2, ONCE OR TWICE A WEEK | 3, THREE OR MORE TIMES A WEEK | 8, NOT CALCULATED - Due to missing data | 9, NOT CALCULATED - Due to INAPP data"
+30,K2QSQ_S7,SLEEP Component 7 - Daytime Dysfunction,Code,"0, 0 | 1, 1-2 | 2, 3-4 | 3, 5-6 | 8, NOT CALCULATED - Due to missing data | 9, NOT CALCULATED - Due to INAPP data"
+31,K2QSQ_GS,SLEEP: Global Score,Numeric,
+32,K2Q26,Follow a special diet,Code,"1, YES | 2, NO | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+33,K2Q27A,Number of servings of milk,Code,"1, NEVER | 2, LESS THAN 1 X PER WEEK | 3, 1-4 X PER WEEK | 4, ALMOST DAILY | 5, 1-3 X PER DAY | 6, 4-7 X PER DAY | 7, 8 OR MORE X PER DAY | 97, DON'T KNOW | 98, MISSING | 99, INAPP"
+34,K2Q27C,Number of servings of small fish,Code,"1, NEVER | 2, LESS THAN 1 X PER WEEK | 3, 1-4 X PER WEEK | 4, ALMOST DAILY | 5, 1-3 X PER DAY | 6, 4-7 X PER DAY | 7, 8 OR MORE X PER DAY | 97, DON'T KNOW | 98, MISSING | 99, INAPP"
+35,K2Q27B,Number of servings of yogurt,Code,"1, NEVER | 2, LESS THAN 1 X PER WEEK | 3, 1-4 X PER WEEK | 4, ALMOST DAILY | 5, 1-3 X PER DAY | 6, 4-7 X PER DAY | 7, 8 OR MORE X PER DAY | 97, DON'T KNOW | 98, MISSING | 99, INAPP"
+36,K2Q28C,Number of serving of coffee,Code,"1, NEVER | 2, LESS THAN 1 X PER WEEK | 3, 1-4 X PER WEEK | 4, ALMOST DAILY | 5, 1-3 X PER DAY | 6, 4-7 X PER DAY | 7, 8 OR MORE X PER DAY | 97, DON'T KNOW | 98, MISSING | 99, INAPP"
+37,K2Q28D,Number of serving of other caffeine beverages,Code,"1, NEVER | 2, LESS THAN 1 X PER WEEK | 3, 1-4 X PER WEEK | 4, ALMOST DAILY | 5, 1-3 X PER DAY | 6, 4-7 X PER DAY | 7, 8 OR MORE X PER DAY | 97, DON'T KNOW | 98, MISSING | 99, INAPP"
+38,K2Q28A,Number of servings of green tea (caffeinated),Code,"1, NEVER | 2, LESS THAN 1 X PER WEEK | 3, 1-4 X PER WEEK | 4, ALMOST DAILY | 5, 1-3 X PER DAY | 6, 4-7 X PER DAY | 7, 8 OR MORE X PER DAY | 97, DON'T KNOW | 98, MISSING | 99, INAPP"
+39,K2Q28B,Number of servings of other tea (decaffeinated),Code,"1, NEVER | 2, LESS THAN 1 X PER WEEK | 3, 1-4 X PER WEEK | 4, ALMOST DAILY | 5, 1-3 X PER DAY | 6, 4-7 X PER DAY | 7, 8 OR MORE X PER DAY | 97, DON'T KNOW | 98, MISSING | 99, INAPP"
+40,K2Q31,"Average day, # servings of vegetables",Code,"1, NONE | 2, LESS THAN 1 SERVING/DAY | 3, 1-4 SERVINGS/DAY | 4, 5-9 SERVINGS/DAY | 5, 10 OR MORE SERVINGS/DAY | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+41,K2Q32,"Average day, # servings of fruit",Code,"1, NONE | 2, LESS THAN 1 SERVING/DAY | 3, 1-4 SERVINGS/DAY | 4, 5-9 SERVINGS/DAY | 5, 10 OR MORE SERVINGS/DAY | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+42,K2Q33,"Average day, # servings whole grain",Code,"1, NONE | 2, LESS THAN 1 SERVING/DAY | 3, 1-2 SERVINGS/DAY | 4, 3-4 SERVINGS/DAY | 5, 5 OR MORE SERVINGS/DAY | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+43,K2Q34A,"Average week, # times eat fish",Code,"1, NEVER | 2, LESS THAN 1X PER WEEK | 3, 1-2 X PER WEEK | 4, 3-4 X PER WEEK | 5, 5 OR MORE X PER WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+44,K2Q34B,"Average week, # times eat beef/high fat meat",Code,"1, NEVER | 2, LESS THAN 1X PER WEEK | 3, 1-2 X PER WEEK | 4, 3-4 X PER WEEK | 5, 5 OR MORE X PER WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+45,K2Q34C,"Average week, # times eat lean meat",Code,"1, NEVER | 2, LESS THAN 1X PER WEEK | 3, 1-2 X PER WEEK | 4, 3-4 X PER WEEK | 5, 5 OR MORE X PER WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+46,K2Q34D,"Average week, # times eat non-meat protein foods",Code,"1, NEVER | 2, LESS THAN 1X PER WEEK | 3, 1-2 X PER WEEK | 4, 3-4 X PER WEEK | 5, 5 OR MORE X PER WEEK | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+47,K2Q35,"Average week, # times eat fast food",Code,"1, NEVER | 2, LESS THAN 1 PER WEEK | 3, 1-2 PER WEEK | 4, 4-6 PER WEEK | 5, 7 OR MORE | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+48,K2QCESD,CESD: Center for Epidemiologic Studies Depression Scale,Numeric,
+49,K2QTA_AX,Spielberger Trait Anxiety Inventory,Numeric,
+50,K2Q46EE2,PES-FEEL Praying or meditating,Code,"1, NEUTRAL OR UNPLEASANT | 2, SOMEWHAT PLEASANT | 3, VERY PLEASANT | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+51,K2Q46EE1,PES-FREQ Praying or meditating,Code,"1, NEVER | 2, 1-6 TIMES | 3, 7+ TIMES | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+52,K2Q46II2,PES-FEEL Sleeping soundly at night,Code,"1, NEUTRAL OR UNPLEASANT | 2, SOMEWHAT PLEASANT | 3, VERY PLEASANT | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+53,K2Q46II1,PES-FREQ Sleeping soundly at night,Code,"1, NEVER | 2, 1-6 TIMES | 3, 7+ TIMES | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+54,K2Q46JJ2,PES-FEEL Having a good fitness workout,Code,"1, NEUTRAL OR UNPLEASANT | 2, SOMEWHAT PLEASANT | 3, VERY PLEASANT | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+55,K2Q46JJ1,PES-FREQ Having a good fitness workout,Code,"1, NEVER | 2, 1-6 TIMES | 3, 7+ TIMES | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+56,K2Q46MM2,PES-FEEL Sexual relation with partner,Code,"1, NEUTRAL OR UNPLEASANT | 2, SOMEWHAT PLEASANT | 3, VERY PLEASANT | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+57,K2Q46MM1,PES-FREQ Sexual relation with partner,Code,"1, NEVER | 2, 1-6 TIMES | 3, 7+ TIMES | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+58,K2QSO_PC,Public Community,Numeric,
+59,K2QRISC,Relational Interdependent self-construal scale,Numeric,
+60,K2QSYMP,Sympathy scale,Numeric,
+61,K2QADJ,Adjustment scale,Numeric,
+62,K2Q49A,"When goal decided, keep in mind benefits",Code,"1, NOT AT ALL | 2, A LITTLE | 3, SOME | 4, A LOT | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+63,K2Q49B,"Decided on something, avoid distract",Code,"1, NOT AT ALL | 2, A LITTLE | 3, SOME | 4, A LOT | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+64,K2QCSCD4,Compensatory Secondary Control - Disengagement - 4 items version,Numeric,
+65,K2QCSCD6,Compensatory Secondary Control - Disengagement - 6 items version,Numeric,
+66,K2QCSCP4,Compensatory Secondary Control - Self Protection - 4 items version,Numeric,
+67,K2QCSCP5,Compensatory Secondary Control - Self Protection - 5 items version,Numeric,
+68,K2Q50A,GDLIFE Be critical/reflect on actions,Code,"1, NOT AT ALL IMPORTANT | 2, SOMEWHAT IMPORTANT | 3, VERY IMPORTANT | 4, EXTREMELY IMPORTANT | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+69,K2Q51H,Giving to community important for good life,Code,"1, YES | 2, NO | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+70,K2Q51C,Learning/growth important for good life,Code,"1, YES | 2, NO | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+71,K2Q51J,Physical fitness important for good life,Code,"1, YES | 2, NO | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+72,K2CHT,Height (cm),Numeric,
+73,K2CWT,Weight (kg),Numeric,
+74,K2CBMI,BMI (Body Mass Index),Code,"97, DON'T KNOW | 98, MISSING"
+75,K2CBPS1,Blood Pressure 1: Systolic (High),Numeric,
+76,K2CBPS2,Blood Pressure 2: Systolic (High),Numeric,
+77,K2CBPS3,Blood Pressure 3: Systolic (High),Numeric,
+78,K2CBPD1,Blood Pressure 1: Diastolic (Low),Numeric,
+79,K2CBPD2,Blood Pressure 2: Diastolic (Low),Numeric,
+80,K2CBPD3,Blood Pressure 3: Diastolic (Low),Numeric,
+81,K2BCHOL,Biocore Total Cholesterol (mg/dL),Numeric,
+82,K2BHDLA,Biocore MIDJA HDL Cholesterol (adjusted to MIDUS) (mg/dL),Numeric,
+83,K2BHDL,Biocore original MIDJA HDL Cholesterol (mg/dL),Numeric,
+84,K2BRTHDLA,Biocore MIDJA ratio Total/HDL Cholesterol (adjusted to MIDUS) (chol/HDL),Code,"97, DON'T KNOW | 98, MISSING | 99, INAPP"
+85,K2BRTHDL,Biocore original MIDJA ratio Total/HDL Cholesterol (chol/HDL),Code,"97, DON'T KNOW | 98, MISSING | 99, INAPP"
+86,K2BDHEA,Biocore DHEA (ng/mL),Code,"97, DON'T KNOW | 98, MISSING | 99, INAPP"
+87,K2BDHEAS,Biocore DHEA-S (ug/dL),Numeric,
+88,K2BSCREA,Biocore Serum Creatinine (mg/dL),Code,"97, DON'T KNOW | 98, MISSING | 99, INAPP"
+89,K2BIL6,Biocore IL6 ELISA (pg/ml),Code,"97, DON'T KNOW | 98, MISSING | 99, INAPP"
+90,K2BSIL6R,Biocore sIL6r ELISA (pg/ml),Numeric,
+91,K2BFGN,Biocore Fibrinogen (mg/dL),Numeric,
+92,K2BCRP,Biocore C Reactive Protein (ug/mL),Code,"97, DON'T KNOW | 98, MISSING | 99, INAPP"
+93,K2CHBA1C,Tokyo Lab: Hemoglobin A1c (%),Numeric,
+94,K2BHA1CA,MIDUS Adjusted Tokyo Lab: Hemoglobin A1c (%),Numeric,
+95,K2CTCHOL,Tokyo Lab: Total Cholesterol (mg/dL),Numeric,
+96,K2CHDL,Tokyo Lab: HDL Cholesterol (mg/dL),Numeric,
+97,K2CLDL,Tokyo Lab: LDL Cholesterol (mg/dL),Numeric,
+98,K2CTRIG,Tokyo Lab: Triglyceride (mg/dL),Numeric,
+99,K2CRTHDL,Tokyo Lab: Ratio Total/HDL Cholesterol,Numeric,
+100,K2CGOT,Tokyo Lab: Liver Function: GOT (Glutamic Oxaloacetic Transaminase),Numeric,
+101,K2CGPT,Tokyo Lab: Liver Function: GPT (Glutamic Pyruvic Transaminase),Numeric,
+102,K2CGGTP,Tokyo Lab Liver Function: Gamma-GTP (Gamma Glutamyl Transpepetidase),Numeric,
+103,K2CSURIC,Tokyo Lab: Serum Uric Acid,Numeric,
+104,K2CUREA,Tokyo Lab: BUN (Blood Urea Nitrogen),Numeric,
+105,K2CWBC,Tokyo Lab: White Blood Cell Count,Numeric,
+106,K2CRBC,Tokyo Lab: Red Blood Cell Count,Numeric,
+107,K2CHGB,Tokyo Lab: Hemoglobin (HGB),Numeric,
+108,K2CHTC,Tokyo Lab: Hematocrit (HTC),Numeric,
+109,K2CMCV,Tokyo Lab: Mean Cell Volume (MCV),Numeric,
+110,K2CMCH,Tokyo Lab: Mean Cell Hemoglobin (MCH),Numeric,
+111,K2CMCHC,Tokyo Lab: Mean Cell Hemoglobin Concentration (MCHC),Numeric,
+112,K2CPLT,Tokyo Lab: Platelets,Numeric,
+113,K2SSAL,Did R provide any saliva sample?,Code,"1, YES | 2, NO | 7, DON'T KNOW | 8, MISSING | 9, INAPP"
+114,K2CSCSEQ,Saliva Sample Collected on 3 Consecutive Days?,Code,"1, YES | 2, NO | 8, MISSING | 9, INAPP"
+115,K2SD1MDH,Saliva Cortisol Collection Time: Day 1 - Midday: Hour,Numeric,
+116,K2SD1MDM,Saliva Cortisol Collection Time: Day 1 - Midday: Minute,Numeric,
+117,K2SD1MNH,Saliva Cortisol Collection Time: Day 1 - Morning: Hour,Numeric,
+118,K2SD1MNM,Saliva Cortisol Collection Time: Day 1 - Morning: Minute,Numeric,
+119,K2SD1EVH,Saliva Cortisol Collection Time: Day 1 - Evening: Hour,Numeric,
+120,K2SD1EVM,Saliva Cortisol Collection Time: Day 1 - Evening: Minute,Numeric,
+121,K2SD2EVH,Saliva Cortisol Collection Time: Day 2 - Evening: Hour,Numeric,
+122,K2SD2EVM,Saliva Cortisol Collection Time: Day 2 - Evening: Minute,Numeric,
+123,K2SD2MDH,Saliva Cortisol Collection Time: Day 2 - Midday: Hour,Numeric,
+124,K2SD2MDM,Saliva Cortisol Collection Time: Day 2 - Midday: Minute,Numeric,
+125,K2SD2MNH,Saliva Cortisol Collection Time: Day 2 - Morning: Hour,Numeric,
+126,K2SD2MNM,Saliva Cortisol Collection Time: Day 2 - Morning: Minute,Numeric,
+127,K2SD3MNH,Saliva Cortisol Collection Time: Day 3 - Morning: Hour,Numeric,
+128,K2SD3MNM,Saliva Cortisol Collection Time: Day 3 - Morning: Minute,Numeric,
+129,K2SD3MDH,Saliva Cortisol Collection Time: Day 3 - Midday: Hour,Numeric,
+130,K2SD3MDM,Saliva Cortisol Collection Time: Day 3 - Midday: Minute,Numeric,
+131,K2SD3EVH,Saliva Cortisol Collection Time: Day 3 - Evening: Hour,Numeric,
+132,K2SD3EVM,Saliva Cortisol Collection Time: Day 3 - Evening: Minute,Numeric,
+133,K2BSCD1D,Saliva Cortisol Day 1 Evening (nmol/L),Numeric,
+134,K2BSCD1C,Saliva Cortisol Day 1 Midday (nmol/L),Numeric,
+135,K2BSCD1B,Saliva Cortisol Day 1 Morning (nmol/L),Numeric,
+136,K2BSCD1A,Saliva Cortisol Day 1 Awake (nmol/L),Numeric,
+137,K2BSCD2A,Saliva Cortisol Day 2 Awake (nmol/L),Numeric,
+138,K2BSCD2D,Saliva Cortisol Day 2 Evening (nmol/L),Numeric,
+139,K2BSCD2C,Saliva Cortisol Day 2 Midday (nmol/L),Numeric,
+140,K2BSCD2B,Saliva Cortisol Day 2 Morning (nmol/L),Numeric,
+141,K2BSCD3A,Saliva Cortisol Day 3 Awake (nmol/L),Numeric,
+142,K2BSCD3D,Saliva Cortisol Day 3 Evening (nmol/L),Numeric,
+143,K2BSCD3C,Saliva Cortisol Day 3 Midday (nmol/L),Numeric,
+144,K2BSCD3B,Saliva Cortisol Day 3 Morning (nmol/L),Numeric,
+145,K2MTM,Total number of medications,Numeric,
+146,K2MQMV,Does R take multivitamin?,Code,"1, YES | 2, NO"
